@@ -11,14 +11,56 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+body{
+  background-image: url('../Background.jpg');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 90vh;
+  margin: 0;
+}
 html {
   color: #900;
   font-size: 1em;
   line-height: 1.4;
 }
+a{
+  text-decoration: none;
+}
 
 h1 {
-  color: #000;
+  color: white;
+  text-align: center;
+  font-size: 400%
+}
+
+h4{
+  color: white;
+  text-align:center;
+  font-size: 150%
+}
+
+p{
+  color: white;
+  text-align: center;
+  font-size: 130%;
+}
+
+img{
+  width: 95%;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 100%;
+}
+
+.flex-item{
+  flex-direction: row;
+  flex-basis: 100%;
+  margin: 4%;
 }
 
 /*
