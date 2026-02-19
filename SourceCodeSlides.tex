@@ -1,0 +1,127 @@
+\documentclass{beamer}
+\usetheme{Frankfurt}
+\usecolortheme{seahorse}
+
+\title{What is LaTeX?}
+\author{Kawsaar, Divya, Nicole, Logan}
+\institute{NYIT}
+\date{\today}
+
+\begin{document}
+
+% Slide 1
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Slide 2
+\begin{frame}{What is LaTeX?}
+\begin{itemize}
+    \item LaTeX is a document preparation system used to create professional documents.
+    \item It is especially popular in mathematics, computer science, physics, and engineering.
+    \item Unlike Microsoft Word, LaTeX focuses on structure rather than visual formatting.
+    \item Users write code that is compiled into a high-quality PDF.
+\end{itemize}
+\end{frame}
+
+% Slide 3
+\begin{frame}{The History of LaTeX}
+\begin{itemize}
+    \item LaTeX is based on a typesetting system called TeX.
+    \item TeX was created in 1978 by computer scientist Donald Knuth.
+    \item Knuth created TeX because he was unhappy with how mathematical books were being printed.
+    \item In the 1980s, Leslie Lamport developed LaTeX to make TeX easier to use.
+\end{itemize}
+\end{frame}
+
+% Slide 4
+\begin{frame}{How LaTeX Was Developed}
+\begin{itemize}
+    \item TeX was powerful but difficult to use.
+    \item Leslie Lamport created LaTeX as a set of macros built on top of TeX.
+    \item These macros simplified document formatting.
+    \item LaTeX allowed users to focus on content instead of layout.
+    \item Today, LaTeX is maintained by a global open-source community.
+\end{itemize}
+\end{frame}
+
+% Slide 5
+\begin{frame}{How LaTeX Works}
+\begin{itemize}
+    \item You write plain text mixed with LaTeX commands.
+    \item Commands begin with a backslash (e.g., \textbackslash section).
+    \item The file is saved as a .tex file.
+    \item A compiler processes the file and generates a PDF.
+    \item The compiler interprets structure, formatting, and layout automatically.
+\end{itemize}
+\end{frame}
+
+% Slide 6
+\begin{frame}[fragile]{Example of Basic LaTeX Code}
+\begin{verbatim}
+\documentclass{article}
+
+\begin{document}
+\section{Introduction}
+Hello World!
+\end{document}
+\end{verbatim}
+
+This simple code generates a formatted document with a section title.
+\end{frame}
+
+% Slide 7
+\begin{frame}{Why LaTeX is Powerful}
+\begin{itemize}
+    \item Produces professional, publication-quality documents.
+    \item Handles complex mathematical equations easily:
+    \[
+        \int_0^\infty e^{-x} dx = 1
+    \]
+    \item Automatically numbers sections, equations, and figures.
+    \item Manages references and bibliographies efficiently.
+    \item Ideal for long research papers and theses.
+\end{itemize}
+\end{frame}
+
+% Slide 8
+\begin{frame}{What is Beamer?}
+\begin{itemize}
+    \item Beamer is a LaTeX document class used to create presentations.
+    \item Instead of writing slides manually, you code them.
+    \item Each slide is created using the frame environment.
+    \item Beamer allows themes, transitions, and structured formatting.
+    \item It is widely used for academic conference presentations.
+\end{itemize}
+\end{frame}
+
+% Slide 9
+\begin{frame}[fragile]{Basic Beamer Slide Code}
+\begin{verbatim}
+\begin{frame}{Slide Title}
+\begin{itemize}
+    \item First point
+    \item Second point
+\end{itemize}
+\end{frame}
+\end{verbatim}
+
+Each frame becomes one slide in the final PDF.
+\end{frame}
+
+% Slide 10
+\begin{frame}{Advantages and Conclusion}
+\begin{itemize}
+    \item LaTeX separates content from design.
+    \item It ensures consistent formatting throughout a document.
+    \item It is the standard tool for many academic journals.
+    \item Beamer makes professional presentations possible using code.
+    \item Learning LaTeX is valuable for STEM students and researchers.
+\end{itemize}
+
+\vspace{0.5cm}
+\centering
+Thank you!
+\end{frame}
+
+\end{document}
